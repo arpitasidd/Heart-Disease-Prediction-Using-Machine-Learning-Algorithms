@@ -1,0 +1,14 @@
+name: heart-ml
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - pandas==2.2.2
+      - numpy==1.26.4
+      - scikit-learn==1.5.1
+      - matplotlib==3.8.4
+      - joblib==1.4.2
+      - tabulate==0.9.0
+      - streamlit==1.37.0
